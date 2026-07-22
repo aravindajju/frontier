@@ -1,0 +1,263 @@
+---
+// Frontier landing — a custom front door outside Starlight's page shell.
+// Committed dark "night survey" design; the docs keep their light/dark toggle.
+import '@fontsource-variable/fraunces';
+import '@fontsource-variable/source-serif-4';
+import '@fontsource/ibm-plex-mono/400.css';
+import '@fontsource/ibm-plex-mono/500.css';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const repo = 'https://github.com/aravindajju/frontier';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Frontier — An Opinionated Method for Forward Deployed Engineering</title>
+    <meta
+      name="description"
+      content="Ship inside the customer's walls, against real data, on an exit date — and feed everything you learn back into the product."
+    />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="mark" href={`${base}/`}>Frontier</a>
+      <nav>
+        <a href={`${base}/manifesto/`}>Manifesto</a>
+        <a href={`${base}/guide/`}>Guide</a>
+        <a href={`${base}/book/01-the-job/`}>Book</a>
+        <a href={repo} rel="noopener">GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <svg class="contours" viewBox="0 0 1200 640" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <g fill="none" stroke="currentColor" stroke-width="1">
+            <path d="M-40,560 C240,470 380,520 620,430 C860,340 980,390 1240,290" />
+            <path d="M-40,500 C240,410 400,460 640,370 C880,280 1000,330 1240,230" />
+            <path d="M-40,440 C250,355 420,400 660,315 C900,230 1020,275 1240,180" />
+            <path d="M-40,380 C260,300 440,340 680,260 C920,180 1040,220 1240,135" />
+            <path d="M-40,320 C270,248 460,282 700,210 C940,138 1060,170 1240,95" />
+            <path d="M-40,260 C280,196 480,224 720,162 C960,100 1080,124 1240,60" />
+          </g>
+          <g class="benchmarks" stroke="currentColor" stroke-width="1.2">
+            <path d="M905,205 l16,0 M913,197 l0,16" />
+            <path d="M310,415 l14,0 M317,408 l0,14" />
+          </g>
+        </svg>
+
+        <p class="kicker">An opinionated method for Forward Deployed Engineering<span class="v">v0.1</span></p>
+        <h1>Frontier</h1>
+        <p class="tagline">
+          Ship inside the customer's walls, against real data, on an exit date —
+          and feed everything you learn back into the product.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href={`${base}/manifesto/`}>Read the manifesto</a>
+          <a class="btn" href={`${base}/book/01-the-job/`}>Start the book</a>
+        </div>
+        <p class="coords">6–12 weeks · 5 values · 11 principles · 4 numbers · one exit date</p>
+      </section>
+
+      <section class="panel test">
+        <h2><span>§1</span>The bright-line test</h2>
+        <p class="lede">Work is Forward Deployed Engineering only if all three hold. Fail one and you are doing a different — honorable — trade.</p>
+        <ol>
+          <li>
+            <strong>Production code in the customer's environment, against real data.</strong>
+            Not offline prototypes, not anonymized sandboxes, not slideware.
+            <em>Fail this and you are doing solutions engineering.</em>
+          </li>
+          <li>
+            <strong>Outcome ownership.</strong> A named business result, not a
+            deliverables list and not a satisfaction score.
+            <em>Fail this and you are doing staff augmentation.</em>
+          </li>
+          <li>
+            <strong>Product obligation.</strong> The engagement must leave a trace
+            in the product. Extraction is a duty, not a bonus.
+            <em>Fail this and you are doing consulting.</em>
+          </li>
+        </ol>
+      </section>
+
+      <section class="panel values">
+        <h2><span>§2</span>Five values</h2>
+        <ul>
+          <li><strong>Outcomes</strong><i>over</i><span>deliverables</span></li>
+          <li><strong>Production</strong><i>over</i><span>demos</span></li>
+          <li><strong>Firsthand context</strong><i>over</i><span>written requirements</span></li>
+          <li><strong>The product</strong><i>over</i><span>the project</span></li>
+          <li><strong>Exits</strong><i>over</i><span>residencies</span></li>
+        </ul>
+        <p class="fine">The items on the right have value. When they conflict, the items on the left decide.</p>
+      </section>
+
+      <section class="panel numbers">
+        <h2><span>§3</span>The four numbers</h2>
+        <p class="lede">What DORA is to delivery, these are to the field.</p>
+        <div class="grid">
+          <div><b>01</b><h3>Time to First Proof</h3><p>Days from Landing to working software on real data in the customer's environment.</p></div>
+          <div><b>02</b><h3>Loop Time</h3><p>Median days from showcase feedback to the shipped next version.</p></div>
+          <div><b>03</b><h3>Graduation Rate</h3><p>Engagements that end on their charter exit date with criteria met.</p></div>
+          <div><b>04</b><h3>Extraction Rate</h3><p>Ledger items generalized into the product, per quarter.</p></div>
+        </div>
+      </section>
+
+      <footer>
+        <p>
+          Free and versioned. <a href={`${base}/guide/`}>The Guide</a> is the citable canon;
+          revisions remove at least as much as they add.
+        </p>
+        <p class="fine">
+          CC BY-SA 4.0 · <a href={repo} rel="noopener">github.com/aravindajju/frontier</a> · run it, measure it, report back
+        </p>
+      </footer>
+    </main>
+
+    <style>
+      :root {
+        --bg: #12100b;
+        --panel: #1a1712;
+        --ink: #ede5d6;
+        --muted: #a99d85;
+        --line: #2e2a20;
+        --orange: #ff6a2b;
+        --orange-dim: #c24409;
+      }
+      * { margin: 0; box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        background: var(--bg);
+        color: var(--ink);
+        font-family: 'Source Serif 4 Variable', georgia, serif;
+        line-height: 1.65;
+        -webkit-font-smoothing: antialiased;
+      }
+      ::selection { background: var(--orange); color: var(--bg); }
+
+      .grain {
+        position: fixed; inset: 0; pointer-events: none; z-index: 3; opacity: 0.05;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)'/%3E%3C/svg%3E");
+      }
+
+      .topbar {
+        display: flex; justify-content: space-between; align-items: baseline;
+        padding: 1.4rem clamp(1.25rem, 5vw, 4rem);
+        border-bottom: 1px solid var(--line);
+      }
+      .mark, nav a {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem;
+        letter-spacing: 0.16em; text-transform: uppercase;
+        color: var(--muted); text-decoration: none;
+      }
+      .mark { color: var(--orange); font-weight: 500; }
+      nav { display: flex; gap: clamp(0.9rem, 3vw, 2rem); }
+      nav a:hover, footer a:hover { color: var(--orange); }
+
+      main { position: relative; z-index: 1; }
+
+      .hero {
+        position: relative; overflow: hidden;
+        padding: clamp(4rem, 12vh, 8rem) clamp(1.25rem, 5vw, 4rem) clamp(3rem, 8vh, 5rem);
+        border-bottom: 1px solid var(--line);
+      }
+      .contours {
+        position: absolute; inset: 0; width: 100%; height: 100%;
+        color: var(--orange); opacity: 0.14; z-index: -1;
+      }
+      .benchmarks { opacity: 0.9; }
+      .kicker, .coords, .v {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.78rem;
+        letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted);
+      }
+      .v { color: var(--orange); margin-left: 1.2em; }
+      .hero h1 {
+        font-family: 'Fraunces Variable', georgia, serif;
+        font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144;
+        font-weight: 560;
+        font-size: clamp(4.5rem, 15vw, 11rem);
+        line-height: 0.95; letter-spacing: -0.025em;
+        margin: 1.2rem 0 1.6rem;
+      }
+      .tagline { font-size: clamp(1.1rem, 2.4vw, 1.45rem); max-width: 42ch; color: var(--ink); }
+      .actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin: 2.2rem 0 3rem; }
+      .btn {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.82rem;
+        letter-spacing: 0.1em; text-transform: uppercase; text-decoration: none;
+        padding: 0.85rem 1.5rem; border: 1px solid var(--line); color: var(--ink);
+        transition: border-color 160ms ease, background 160ms ease, color 160ms ease;
+      }
+      .btn:hover { border-color: var(--orange); color: var(--orange); }
+      .btn.primary { background: var(--orange); border-color: var(--orange); color: var(--bg); }
+      .btn.primary:hover { background: var(--orange-dim); border-color: var(--orange-dim); color: var(--ink); }
+
+      .panel {
+        padding: clamp(3rem, 8vh, 5rem) clamp(1.25rem, 5vw, 4rem);
+        border-bottom: 1px solid var(--line);
+        max-width: 72rem;
+      }
+      .panel h2 {
+        font-family: 'Fraunces Variable', georgia, serif;
+        font-size: clamp(1.7rem, 4vw, 2.4rem); font-weight: 560;
+        letter-spacing: -0.015em; margin-bottom: 1.2rem;
+      }
+      .panel h2 span {
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem;
+        color: var(--orange); letter-spacing: 0.16em; vertical-align: 0.6em;
+        margin-right: 1em;
+      }
+      .lede { color: var(--muted); max-width: 52ch; margin-bottom: 2rem; }
+
+      .test ol { list-style: none; counter-reset: t; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+      .test li {
+        counter-increment: t; background: var(--panel); padding: 1.5rem 1.5rem 1.5rem 4.2rem; position: relative;
+      }
+      .test li::before {
+        content: counter(t, decimal-leading-zero);
+        position: absolute; left: 1.4rem; top: 1.6rem;
+        font-family: 'IBM Plex Mono', monospace; font-size: 0.8rem; color: var(--orange);
+      }
+      .test li em { display: block; margin-top: 0.5rem; color: var(--muted); font-style: italic; }
+
+      .values ul { list-style: none; padding: 0; }
+      .values li {
+        display: flex; align-items: baseline; flex-wrap: wrap;
+        padding: 0.9rem 0; border-bottom: 1px dashed var(--line);
+        font-family: 'Fraunces Variable', georgia, serif;
+        font-size: clamp(1.3rem, 3.2vw, 2rem); letter-spacing: -0.01em;
+      }
+      .values i {
+        font-family: 'IBM Plex Mono', monospace; font-style: normal;
+        font-size: 0.72em; color: var(--orange); letter-spacing: 0.14em;
+        text-transform: uppercase; margin: 0 0.9em;
+      }
+      .values li :last-child { color: var(--muted); }
+      .fine { margin-top: 1.4rem; color: var(--muted); font-size: 0.95rem; }
+
+      .numbers .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); }
+      .numbers .grid > div { background: var(--panel); padding: 1.5rem; }
+      .numbers b { font-family: 'IBM Plex Mono', monospace; font-weight: 500; color: var(--orange); font-size: 0.8rem; letter-spacing: 0.16em; }
+      .numbers h3 { font-family: 'Fraunces Variable', georgia, serif; font-size: 1.25rem; margin: 0.6rem 0 0.4rem; }
+      .numbers p { color: var(--muted); font-size: 0.95rem; }
+
+      footer { padding: 3rem clamp(1.25rem, 5vw, 4rem) 4rem; max-width: 72rem; }
+      footer a { color: var(--ink); }
+      footer .fine { font-family: 'IBM Plex Mono', monospace; font-size: 0.75rem; letter-spacing: 0.08em; }
+
+      @media (prefers-reduced-motion: no-preference) {
+        .hero > *:not(.contours) { animation: rise 700ms ease both; }
+        .hero .tagline { animation-delay: 90ms; }
+        .hero .actions { animation-delay: 180ms; }
+        .hero .coords { animation-delay: 270ms; }
+        @keyframes rise { from { opacity: 0; transform: translateY(14px); } }
+      }
+    </style>
+  </body>
+</html>
