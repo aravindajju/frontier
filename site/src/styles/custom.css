@@ -1,0 +1,95 @@
+/* Frontier — surveyor's field-manual theme.
+   Warm paper and ink, signal-orange accents, serif display over serif body,
+   mono small-caps for labels. Restraint over decoration. */
+
+@import '@fontsource-variable/fraunces';
+@import '@fontsource-variable/source-serif-4';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+
+:root {
+  --sl-font: 'Source Serif 4 Variable', georgia, serif;
+  --sl-font-mono: 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* Signal orange — survey-marker accent */
+  --sl-color-accent-low: #3a1c0a;
+  --sl-color-accent: #d95212;
+  --sl-color-accent-high: #ffb38a;
+
+  /* Dark: field night */
+  --sl-color-white: #ede5d6;
+  --sl-color-gray-1: #ded4c1;
+  --sl-color-gray-2: #b3a892;
+  --sl-color-gray-3: #837962;
+  --sl-color-gray-4: #4f4738;
+  --sl-color-gray-5: #2e2921;
+  --sl-color-gray-6: #1d1913;
+  --sl-color-black: #14110c;
+}
+
+:root[data-theme='light'] {
+  /* Light: paper and ink */
+  --sl-color-accent-low: #fbe3d3;
+  --sl-color-accent: #c24409;
+  --sl-color-accent-high: #7c2d05;
+
+  --sl-color-white: #211d16;
+  --sl-color-gray-1: #332c22;
+  --sl-color-gray-2: #4c4335;
+  --sl-color-gray-3: #6d6250;
+  --sl-color-gray-4: #a2967f;
+  --sl-color-gray-5: #d9cfba;
+  --sl-color-gray-6: #efe8d9;
+  --sl-color-black: #f7f2e7;
+}
+
+/* Headings: Fraunces, tight and confident */
+h1, h2, h3, h4,
+.sl-markdown-content h1,
+.sl-markdown-content h2,
+.sl-markdown-content h3 {
+  font-family: 'Fraunces Variable', georgia, serif;
+  font-variation-settings: 'SOFT' 0, 'WONK' 0, 'opsz' 72;
+  letter-spacing: -0.015em;
+}
+
+.sl-markdown-content h2 {
+  border-top: 1px solid var(--sl-color-gray-5);
+  padding-top: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+/* Body reading measure and rhythm */
+.sl-markdown-content {
+  font-size: 1.0625rem;
+  line-height: 1.72;
+}
+
+/* Blockquotes (scene slots, epigraphs): field-note styling */
+.sl-markdown-content blockquote {
+  border-inline-start: 3px solid var(--sl-color-accent);
+  background: var(--sl-color-gray-6);
+  padding: 0.75rem 1.25rem;
+  font-style: italic;
+}
+
+/* Site title in mono small-caps — the survey-stamp mark */
+.site-title {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+/* Splash hero */
+[data-has-hero] .hero h1 {
+  font-family: 'Fraunces Variable', georgia, serif;
+  font-size: clamp(3rem, 9vw, 5.5rem);
+  font-variation-settings: 'SOFT' 0, 'WONK' 1, 'opsz' 144;
+  letter-spacing: -0.02em;
+}
+
+[data-has-hero] .hero .tagline {
+  font-size: clamp(1.05rem, 2.2vw, 1.3rem);
+  max-width: 44ch;
+}
