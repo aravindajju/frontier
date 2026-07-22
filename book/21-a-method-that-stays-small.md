@@ -1,0 +1,37 @@
+# 21. A Method That Stays Small
+
+In 2020, the Scrum Guide got shorter. Its authors cut it from nineteen pages to thirteen — removed roles' prescriptive detail, removed IT-specific language, removed a decade of accumulated instruction — and adoption went up, not down. Around the same time, the Scaled Agile Framework issued another major version; each of its versions had added roles, levels, and vocabulary to a diagram that long ago stopped fitting on a slide, and each addition gave its critics new material. The two trajectories are the methodology field's cleanest natural experiment, and this book is written on the side of the one that subtracts.
+
+Frontier ends, then, not with a summary but with a constitution: how the method itself changes, who changes it, and what it refuses to become.
+
+## The removal rule
+
+Every methodology faces the same pressure its engagements do — scope creep, arriving as helpfulness. Each new context ("how does Frontier handle government procurement?") tempts a new section; each ambiguity tempts a clarifying rule; each conference talk tempts a new diagram. Answer every call and the method becomes the thing the Guide's end note warns about: a framework whose adoption requires a consultant, which is the beginning of the end of meaning anything.
+
+So the method's first governance rule is borrowed from the Scrum Guide's revealed trajectory and stated harder: **every revision removes at least as much prescription as it adds.** A proposed addition to the normative core — a new role, a new artifact, a new rule — must name what it displaces. If nothing can be displaced, the addition waits, and the default answer to "does Frontier cover X?" remains the honest one: the book discusses it; the method does not legislate it. The normative core is deliberately countable — five values, eleven principles, four roles, five phases, three artifacts, five rules, four metrics — and the counts are a budget, not an inventory. Budgets force choices. That is what they are for.
+
+The same rule protects the vocabulary. Ten coined terms, budget spent, and the budget survives only if defended against the methodology's most flattering failure mode: jargon accretion. When a term from this book drifts into meaning everything ("we're doing Frontier" as a synonym for "we visit customers"), the response is the one Fowler taught for semantic diffusion — restate the definition, point at the bright-line test, and decline the broader usage. A method that polices its nouns stays criticizable, and staying criticizable is the point: every claim in the normative core was written to be checkable, and checkable claims are how the method earns the right to be believed about anything.
+
+## Versioning, in the open
+
+The Guide is versioned like software because it makes the same promise software makes: you can build on this, and we will tell you when it moves. The practical commitments are already in the repository and worth stating as obligations rather than habits. Changes to the normative core happen in public, with reasoning, in the changelog. Superseded versions stay available — teams running Frontier 1.x deserve to know exactly what they adopted, and revisionism is the cheapest way to spend trust. Thresholds keep their evidence labels: the two-week proof, the one-third rule, the four metrics' directional targets shipped as early calibration, and they graduate to settled numbers only when field reports move them. A method that borrowed DORA's posture must accept DORA's discipline — the numbers answer to data, including the data that says a threshold was wrong.
+
+What gets versioned is also bounded. The manifesto does not version. Values and principles are the method's identity; a method whose values change with releases has none. If the values are ever wrong, the honest act is not Frontier 3.0 — it is a different method with a different name, written by whoever saw further.
+
+## The succession question
+
+The Twelve-Factor App spent twelve years as the clearest short methodology document in the industry — and frozen, because its author moved on and no mechanism existed for anyone else to touch it. In 2023 Heroku finally open-sourced it, handing it to a community organization to modernize, and the handoff's lesson was its timing: the succession question answers itself eventually, and late answers are expensive. A dozen years of cloud evolution had accumulated against a document nobody was allowed to revise.
+
+Frontier takes the lesson at the start rather than the end. The method's text is licensed CC BY-SA, so no succession failure can orphan it — anyone can fork, adapt, and republish with attribution, forever, and the license is the ultimate guarantee against both abandonment and capture. Stewardship of the *canonical* version is the narrower thing that needs a plan: while the author stewards it, changes follow the process above — public comment, author's decision, changelog. Should stewardship lapse — a year without response to substantive community proposals is a reasonable test — the standing grant is that any group of practicing Frontier teams may fork the canon, keep the version history, and continue it under the same license and rules, including this clause. A method about graduation criteria and exit dates should not be embarrassed to write its own.
+
+And one commitment is permanent rather than transitional: there will be no certification. Nothing in this method requires a course to understand, and the bright-line test, the rules, and the four metrics were designed precisely so that anyone — an engineer, a hiring manager, a customer, a skeptical board member — can check a team's practice against the text for free. A "Frontier-certified" credential would invert that design, converting checkable claims into purchasable ones. The Guide already refuses it; this chapter makes the refusal load-bearing. The method's authority is the text plus the results, or it is nothing.
+
+## Run it, measure it, report back
+
+A methodology document can be evidence-based about its ancestors and only principled about itself. This book cites Palantir's decade, the DORA program, the SRE canon, the published post-mortems of the field model's failures — but Frontier's own specific claims, the ones with numbers in them, ship as strong conjecture backed by practice and precedent. That is not a weakness to hide; it is the invitation.
+
+So: run it. Charter an engagement, keep a Ledger, hold the Showcase on working software, end on the date. Measure the four numbers — Time to First Proof, Loop Time, Graduation Rate, Extraction Rate — and when your numbers disagree with this book's thresholds, say so, in public, with the context that explains the disagreement. The repository takes issues. The rules carry evidence labels waiting to be moved, in either direction, by teams whose engagements generate the data this book could only calibrate.
+
+Forward deployed engineering earned a method the way every discipline does: enough teams did the work, enough of them failed the same ways, and the patterns stopped being anecdotes. Frontier is one opinionated reading of those patterns — small on purpose, checkable on purpose, and unfinished on purpose, because the frontier it is named for does not hold still. The method will be judged the way it judges engagements: by whether it ships something real, learns from contact, and knows when to graduate.
+
+Go build at the edge. Write down what you learn. The product — everyone's product — is made from the residue.
