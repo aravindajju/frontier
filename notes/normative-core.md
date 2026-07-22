@@ -126,7 +126,7 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 
 ## 13. Vocabulary (coined terms, budget: ten)
 
-Frontier (the methodology) · frontier engineer · engagement · Charter · Showcase · the Loop · Ledger · Graduation · Extraction · the bright-line test. That is ten; the budget is spent.
+Frontier (the method), frontier engineer, engagement, Charter, Showcase, the Loop, Ledger, Graduation, Extraction, and the bright-line test. That is ten; the budget is spent.
 
 ## 14. The diagram (to be drawn)
 

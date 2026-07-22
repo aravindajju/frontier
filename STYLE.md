@@ -47,6 +47,7 @@ Plain replacements win: use, not utilize; help, not facilitate; start, not comme
 ## Structure
 
 - No symmetric bullet triads. If every list you write has three items of matching length, you are patterning, not thinking.
+- No stat chains — fragments strung together with middle dots or dashes ("6 weeks · 5 values · 11 principles"). The pattern performs information without carrying any. If the numbers matter, give them a sentence; if they don't, cut them.
 - Bullets carry facts. Arguments get paragraphs.
 - No section that exists to mirror another section. Structure follows content.
 - Headers name their content plainly. No clever-only headers, no colon-subtitle headers ("Deployment: A Journey of Discovery").
