@@ -1,6 +1,10 @@
 # 9. First Proof
 
-> [SCENE SLOT — Aravind: your first proof at the financing org or the insurer. What was the first thing you showed running on their real data, how many days in, what it got embarrassingly wrong, and what the room did when they saw their own data moving. Two to three paragraphs.]
+Day eleven at Cascade Health, a Thursday, four people in a conference room meant for ten. On screen was nothing anyone would call a demo: a table of yesterday's fax-channel claims — 3,400 of them, real members, real providers — with 214 rows flagged. The platform's intake-validation capability, aimed at the fax channel and wearing about a hundred and twenty lines of glue Advik and Adit had written that week, had checked every claim's member ID and provider number against Cascade's own eligibility data before adjudication ever saw it. The 214 were claims that would have bounced into rework days later. A spot check of fifty, run with the intake team that morning, had confirmed forty-one.
+
+Elena Ruiz looked at the screen for a moment and then did the thing that separates sponsors from spectators: she pulled her chair in and asked to run it again, live, on Tuesday's batch. It ran — different day, same shape, a couple hundred catches, most of them real. Then she asked the question the engagement would hang on: what happens to the 214? It was the right question, because flagging a defect is not preventing rework, and everyone in the room knew the proof hadn't answered it yet. She assigned two of her analysts to verify catches daily anyway. The engagement had stopped being a pitch and become a system with a state — an eval seeded from fifty verified cases, a Scorecard with its first reading, a Sponsor who had watched her own claims move.
+
+It was small. It was eleven days in. It was also the last day anyone at Cascade asked whether the team was going to work out.
 
 Somewhere in the second week of an engagement, something has to run. Not a slide describing what will run, not a prototype on sample data, not an architecture diagram with the customer's logo on it — working software, in the customer's environment, processing the customer's real records. Frontier calls it First Proof, gives it a deadline, and treats the deadline as one of the five operating rules: two weeks from Landing, or the Charter gets renegotiated.
 

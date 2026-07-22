@@ -1,6 +1,12 @@
 # 8. Landing
 
-> [SCENE SLOT — Aravind: your first days at the health insurer. Needed: what you asked for on day one, when you first saw real data, and one concrete thing the data showed that the briefing didn't — a field, a table, a volume, a gap. Two to four paragraphs; I will edit for rhythm.]
+Advik and Adit landed at Cascade Health on a Monday with a briefing deck that knew exactly what the problem was. Claims rework, it said, was an adjudication problem: the rules engine was old, the edits too strict, the fix was smarter exception handling. The deck had charts. It had been assembled three floors above the claims operation, and it was wrong in the specific way week one exists to discover.
+
+They spent the first two days acquiring things instead of opinions — warehouse credentials on day one (Elena Ruiz, the VP of Claims Operations sponsoring the engagement, turned the request around in hours, which told them something about her), read access to the intake systems, the names of the people who actually run adjudication. Then the Data Walk: three days inside the claims tables, an agent doing the archaeology — profiling intake channels, joining rework events back to their source claims — while the two of them read pipeline code and asked the warehouse the questions the deck hadn't thought to ask.
+
+The picture that emerged did not match the briefing. Rework wasn't distributed across adjudication; it was concentrated at the front door. Cascade takes claims through four channels — EDI, the provider portal, paper, and fax — and the fax channel, digitized by an OCR vendor and keyed into intake, accounted for roughly two-thirds of all first-pass rework: misread member IDs, mangled provider numbers, transposed dates of service, each surfacing downstream as an adjudication "error" that was actually an intake defect wearing a disguise. The rules the briefing wanted loosened were, mostly, correctly rejecting corrupted claims.
+
+They brought findings, not conclusions, to the intake operations team on Thursday and let the people who own the systems correct the details. By Friday the Charter said what the data said, not what the deck said: cut first-pass rework on the fax channel by a third in six weeks. Elena signed it. The engagement that would have spent six weeks tuning a rules engine spent them at the front door instead.
 
 The first week of an engagement decides its shape. Not because the plan you write in week one survives — it won't — but because week one is when you choose what to believe: the deck the account team showed you, or the customer's actual systems. Frontier calls this phase Landing, and it has one deliverable — a signed Charter — and one discipline: access before opinions.
 

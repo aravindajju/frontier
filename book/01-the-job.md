@@ -1,6 +1,12 @@
 # 1. The Job
 
-> [SCENE SLOT — Aravind: a day mid-engagement — the messiest, most representative one. Candidate prompts: the day at the health insurer or the financing org that had all of it — a data surprise in the morning, a tense meeting at noon, shipped code by evening. Needed: what broke, who was in the room, what you actually did hour by hour. Two to four paragraphs; I will edit for rhythm.]
+The text arrives at 6:10 on a Tuesday: the overnight feed from Meridian National Bank's servicing system has stopped loading, and the covenant alerts that ran clean for twelve days are now running on stale data. Advik reads it on the train into the city. By the time he badges into a building his employer does not own — week five of an eight-week engagement — his agent has already profiled the failure: a core-banking patch renamed a column in the nightly extract, eleven tables downstream. He reviews the patch the agent drafted, tightens the backfill himself, and has the pipeline green by 9:40. The timing matters less because the data is flowing again and more because the 10:00 standup includes an operations analyst who has been waiting for a reason to distrust the system.
+
+At 11:00 that analyst — Janet, eleven years at the bank — shows him why her numbers and his disagree, and it is the most valuable half hour of the week. Her covenant spreadsheet carries a hand-maintained column for amendments: rate changes and waiver terms negotiated on paper, initialed by relationship managers, never keyed back into the servicing system. For sixty-one of the bank's twenty-four hundred middle-market loans, the spreadsheet is the system of record and the system of record is fiction. No requirements document mentioned this, because nobody who writes requirements documents knew.
+
+At 2:00, a steering committee he expected to be routine turns into an ambush: a program manager wants the engagement to "pick up" a treasury dashboard while it's here, and two directors in the room think that sounds efficient. Advik says no the only way no works inside a customer — by reading from the Charter. One outcome, covenant monitoring on the middle-market book, exit date November 7th; the dashboard goes on record as evidence for a future engagement. He answers one technical question honestly and leaves the rest of the meeting to the colleague whose job the rest of the meeting is.
+
+At 5:30 he writes the day down: a Ledger entry for the shortcut Janet's discovery forced — a hard-coded override table for the sixty-one amended loans, right for this engagement, wrong forever, logged with the trigger that will someday break it — and a note to the core team that the servicing system's amendment gap is the second one like it this year. Then he closes the laptop, because Thursday has a showcase in it.
 
 There is a kind of engineer who works inside other people's companies. Not visiting — working. They have a badge for a building their employer doesn't own, credentials on a network their employer doesn't run, and a standing meeting with people who appear on no org chart they belong to. They ship production code into that environment, against that customer's real data, and they are paid by the software company whose product they carry with them.
 
@@ -8,7 +14,7 @@ The title, most often, is Forward Deployed Engineer. The name comes from the mil
 
 ## A week in the field
 
-What the job actually consists of is best shown at the scale of a week. The one that follows is a composite — assembled from documented accounts of the work and from the author's own engagements — and any single week will bend around whatever is on fire. The proportions are the point.
+Advik's Tuesday is the job's texture. Its proportions show better at the scale of a week — the one that follows is assembled from documented accounts of the work and engagements like his, and any single week will bend around whatever is on fire. The proportions are the point.
 
 Monday is data. Something in the customer's warehouse doesn't match what last week's showcase assumed — a claims feed changed format, or a table that was supposed to be authoritative turns out to be a copy someone stopped updating in March. You find this out not from a ticket but because you looked. An agent profiles the affected tables while you read the pipeline code; by afternoon you know whether this is an hour's patch or the week's real work.
 
