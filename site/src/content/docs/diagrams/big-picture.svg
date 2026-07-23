@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" font-family="'IBM Plex Mono', ui-monospace, Menlo, monospace" role="img" aria-label="The Frontier loop: capability deploys forward from the core to the frontier; proven outcomes and extractions return. Beneath, the engagement timeline runs from Landing to a hard exit date, with the Extraction Review after it.">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9" fill="none" stroke="#8a8577" stroke-width="1.6"/>
+    </marker>
+    <marker id="ahO" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,1 L9,5 L0,9" fill="none" stroke="#e8611f" stroke-width="1.6"/>
+    </marker>
+  </defs>
+
+  <!-- poles -->
+  <rect x="50" y="80" width="240" height="110" fill="none" stroke="#8a8577" stroke-width="1.5"/>
+  <text x="170" y="128" text-anchor="middle" fill="#8a8577" font-size="16" letter-spacing="3">THE CORE</text>
+  <text x="170" y="152" text-anchor="middle" fill="#8a8577" font-size="12">the product</text>
+
+  <rect x="630" y="80" width="240" height="110" fill="none" stroke="#e8611f" stroke-width="1.5"/>
+  <text x="750" y="128" text-anchor="middle" fill="#e8611f" font-size="16" letter-spacing="3">THE FRONTIER</text>
+  <text x="750" y="152" text-anchor="middle" fill="#8a8577" font-size="12">the customer's environment</text>
+
+  <!-- forward arrow -->
+  <path d="M290,105 C400,60 520,60 628,105" fill="none" stroke="#8a8577" stroke-width="1.5" marker-end="url(#ah)"/>
+  <text x="460" y="52" text-anchor="middle" fill="#8a8577" font-size="12">engineers and platform capability deploy forward</text>
+
+  <!-- return arrow -->
+  <path d="M630,168 C520,214 400,214 292,168" fill="none" stroke="#e8611f" stroke-width="1.5" marker-end="url(#ahO)"/>
+  <text x="460" y="238" text-anchor="middle" fill="#e8611f" font-size="12">proven outcomes and extractions return</text>
+
+  <!-- timeline -->
+  <line x1="70" y1="330" x2="750" y2="330" stroke="#8a8577" stroke-width="1.5"/>
+  <line x1="750" y1="306" x2="750" y2="354" stroke="#e8611f" stroke-width="4"/>
+  <line x1="750" y1="330" x2="860" y2="330" stroke="#8a8577" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+  <!-- phase ticks -->
+  <line x1="70" y1="322" x2="70" y2="338" stroke="#8a8577" stroke-width="1.5"/>
+  <line x1="215" y1="322" x2="215" y2="338" stroke="#8a8577" stroke-width="1.5"/>
+  <line x1="360" y1="322" x2="360" y2="338" stroke="#8a8577" stroke-width="1.5"/>
+  <line x1="640" y1="322" x2="640" y2="338" stroke="#8a8577" stroke-width="1.5"/>
+
+  <text x="70" y="368" text-anchor="middle" fill="#8a8577" font-size="12">LANDING</text>
+  <text x="215" y="368" text-anchor="middle" fill="#8a8577" font-size="12">FIRST PROOF</text>
+
+  <!-- loop glyph on the timeline -->
+  <circle cx="500" cy="330" r="17" fill="none" stroke="#8a8577" stroke-width="1.5"/>
+  <path d="M500,313 A17,17 0 1 1 483.5,335" fill="none" stroke="#e8611f" stroke-width="1.6" marker-end="url(#ahO)"/>
+  <text x="500" y="368" text-anchor="middle" fill="#8a8577" font-size="12">THE LOOP, WEEKLY</text>
+
+  <text x="640" y="368" text-anchor="middle" fill="#8a8577" font-size="12">GRADUATION</text>
+  <text x="750" y="290" text-anchor="middle" fill="#e8611f" font-size="12" letter-spacing="1">EXIT DATE</text>
+  <text x="810" y="368" text-anchor="middle" fill="#8a8577" font-size="12">EXTRACTION</text>
+  <text x="810" y="384" text-anchor="middle" fill="#8a8577" font-size="12">REVIEW</text>
+
+  <text x="70" y="416" fill="#8a8577" font-size="11">week 1</text>
+  <text x="750" y="416" text-anchor="end" fill="#8a8577" font-size="11">weeks 6-12, in writing, from day one</text>
+</svg>

@@ -30,6 +30,8 @@ Eleven is not a round number, and that is fine. The set is closed by argument, n
 
 ## The diagram
 
+![The Frontier loop: capability deploys forward, outcomes and extractions return; beneath it, the engagement timeline ends at a hard exit date](../diagrams/big-picture.svg)
+
 On a whiteboard, Frontier is one loop and one timeline.
 
 The loop runs between two poles. On the left, the Core: the product, its platform, its engineers. On the right, the Frontier: the customer's environment, real data, real users. The rightward arrow carries the platform and the engineers forward into the engagement. The leftward arrow carries back the two things the field produces: a proven outcome and the Ledger's extractions. Drawn honestly, the arrows are a cycle, not a delivery — the same engineers rotate along them, the same platform returns wider than it left.
@@ -44,10 +46,10 @@ It is not a certification. There is nothing to buy, no accredited trainer, no re
 
 It is not a liturgy. The Guide marks a small invariant core — the FDE test, the Charter with its exit date, the Loop on real data, the Extraction Review, a named Core Counterpart — and expects everything else to be tailored. But tailoring is stated, never silent: a team that runs biweekly Showcases because its customer's availability forces it is running Frontier and saying so; a team that quietly dropped the exit date is running something else and borrowing the name.
 
-It is not a services playbook. Frontier will look like professional services to anyone reading the calendar — engineers at customer sites, billed engagements, deadlines. The difference is load-bearing and auditable: services businesses optimize for the engagement and grow by adding engagements; Frontier optimizes for the product and succeeds when the platform makes engagements shorter. A field function whose engagements lengthen year over year is not maturing. It is converting into the thing it was built to not be, and chapter 20 treats that conversion as the failure mode worth the most vigilance.
+It is not a services playbook. Frontier will look like professional services to anyone reading the calendar — engineers at customer sites, billed engagements, deadlines. The difference is load-bearing and auditable: services businesses optimize for the engagement and grow by adding engagements; Frontier optimizes for the product and succeeds when the platform makes engagements shorter. A field function whose engagements lengthen year over year is not maturing. It is converting into the thing it was built to not be, and chapter 21 treats that conversion as the failure mode worth the most vigilance.
 
 ## The shape of what follows
 
-Part II walks the method at working altitude, in the order an engagement lives it. The team and its four accountabilities (chapter 6). The engagement and its Charter (7). Landing (8), First Proof (9), the Loop (10) — the spine of the work. The Ledger (11) and the machinery of Graduation and Extraction (12) — the spine of the flywheel. Machine leverage, the AI-native chapter (13). The four metrics (14). And the pathologies, named and detectable (15).
+Part II walks the method at working altitude, in the order an engagement lives it. The team and its four accountabilities (chapter 6). The engagement and its Charter (7). Landing (8), First Proof (9), the Loop (10) — the spine of the work. The Ledger (11) and the machinery of Graduation and Extraction (12) — the spine of the flywheel. Machine leverage, the AI-native chapter (13), and the engineering craft that makes "production-grade" a checkable claim (14). The four metrics (15). And the pathologies, named and detectable (16).
 
-None of it is theory from here on. Chapter 4 argued that being there works; the next eleven chapters are what "there" looks like on a Tuesday.
+None of it is theory from here on. Chapter 4 argued that being there works; the next twelve chapters are what "there" looks like on a Tuesday.

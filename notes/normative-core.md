@@ -110,7 +110,7 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 - **The Silent Overfit** — edge hacks nobody recorded. Signal: production incidents at the customer that the Ledger never predicted.
 - **The Burned Hero** — one engineer carrying serial engagements without rotation. Signal: rotation rule violations; resignation letters.
 - **The Greenfield Reflex** — rebuilding at the edge what the platform already does. Signal: engagement code duplicating product capability; platform team learns of workarounds from incident reports.
-- **The Margin Mirage** — field costs hidden to flatter product margins. Signal: FDE cost booked outside COGS/CAC. Book-level name, not part of the Guide's seven-item field catalog: it is an org/economics pathology committed by executives, named and treated in chapter 18.
+- **The Margin Mirage** — field costs hidden to flatter product margins. Signal: FDE cost booked outside COGS/CAC. Book-level name, not part of the Guide's seven-item field catalog: it is an org/economics pathology committed by executives, named and treated in chapter 19.
 
 ## 12. Tailoring (context-dependent vs invariant)
 
@@ -128,6 +128,6 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 
 Frontier (the method), frontier engineer, engagement, Charter, Showcase, the Loop, Ledger, Graduation, Extraction, and the FDE test. That is ten; the budget is spent.
 
-## 14. The diagram (to be drawn)
+## 14. The diagram (drawn: diagrams/big-picture.svg; companions: loop.svg, fde-test.svg, team.svg)
 
 One loop between two poles. Left pole: **the Core** (the product). Right pole: **the Frontier** (the customer's environment). Rightward arrow: engineers and product capability deploy forward. Leftward arrow: outcomes proven, extractions flow back. Beneath the loop: the engagement timeline — Landing → First Proof → the Loop (circular) → Graduation → Extraction Review — with the exit date marked as a hard right edge. Whiteboardable in thirty seconds or it gets redrawn.

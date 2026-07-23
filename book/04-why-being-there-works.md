@@ -14,7 +14,7 @@ The standard mechanism for moving such facts to engineers is the requirements pr
 
 There are two responses. Compress better: more workshops, longer documents, stricter sign-offs — the enterprise-software tradition, and a fair description of the requirements-heavy methods the Agile Manifesto was written against. Or stop compressing: move the engineer to where the context lives and let her read the raw material herself. That is the whole of forward deployment's first argument. The Data Walk of chapter 8 is this claim turned into a week-one discipline; the field whose name means the opposite of its contents is not an anecdote about bad data, it is the standard condition of the environments where outcomes live.
 
-The claim would be false where context is thin or transmits well — where the product's install is genuinely self-serve, where customers resemble each other closely, where the data is clean and the workflows are documented. Such markets exist. Forward deployment is waste in them, which is why the fit gates of chapter 16 are part of the method and not an apology for it.
+The claim would be false where context is thin or transmits well — where the product's install is genuinely self-serve, where customers resemble each other closely, where the data is clean and the workflows are documented. Such markets exist. Forward deployment is waste in them, which is why the fit gates of chapter 17 are part of the method and not an apology for it.
 
 ## The gap is where value dies
 
@@ -32,7 +32,7 @@ The proof of concept is Palantir's Foundry, a product assembled from what field 
 
 State the trade-off honestly: this is the expensive path to product truth. A field engagement costs more than a user interview, and the risk it manages is different in kind. Interviews and surveys risk building the wrong thing efficiently; field engagements risk building the right thing for an audience of one. Frontier accepts the second risk and instruments against it — the extraction rule, the one-third rule, the Ghost Consultant anti-pattern are all controls on overfit that never generalizes. What the field engagement buys for its cost is evidence of a quality no interview produces: a paying customer's production system, running, is a requirements document that cannot lie.
 
-The claim would be false where engagements don't repeat — where each customer's problem is genuinely singular. Then there is no residue to generalize, extraction rate falls to zero honestly, and what you are running is a consultancy. Chapter 16 treats this as a legitimate finding, not a failure of will.
+The claim would be false where engagements don't repeat — where each customer's problem is genuinely singular. Then there is no residue to generalize, extraction rate falls to zero honestly, and what you are running is a consultancy. Chapter 17 treats this as a legitimate finding, not a failure of will.
 
 ## Machine leverage makes the box fit
 
@@ -46,4 +46,4 @@ The leverage compounds with the subject matter. The systems Frontier teams deplo
 
 A theory that cannot fail is a creed, so: forward deployment stops paying when any of the four claims breaks. Where context is thin, self-serve wins and the field team is overhead. Where the gap is narrow — deterministic products, clean integrations — solutions engineering covers it at a fraction of the cost. Where nothing repeats, there is no flywheel and you have priced a consultancy like a software company, which the market eventually notices. Where the leverage is refused — engineers hand-building what agents do better — the time-box stops fitting and the economics revert to the ones that made the historical objection sound.
 
-Every one of these failures is observable, most of them in the four metrics of chapter 14. That is by design. The next chapter surveys the method built on these claims; the part that follows shows it in operation, one practice at a time. None of it asks to be believed. All of it asks to be measured.
+Every one of these failures is observable, most of them in the four metrics of chapter 15. That is by design. The next chapter surveys the method built on these claims; the part that follows shows it in operation, one practice at a time. None of it asks to be believed. All of it asks to be measured.

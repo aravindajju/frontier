@@ -38,28 +38,31 @@ Drafting order: Part II, then Part I, then Part III.
 
 **13. Machine Leverage.** The AI-native chapter, and the reason Frontier's cadences are set where they are. Building with AI code assistants and agents at the customer: what agent-assisted velocity makes possible in a six-week box, and what it makes dangerous. The agent boundary as Charter material — data boundaries for model context, human review gates, audit trails in regulated environments. Evals as the Scorecard for probabilistic systems: why "it worked in the showcase" is an anecdote and an eval score is a state; building the eval suite from the customer's real cases during Landing and the Loop. The two failure modes: the engineer who won't use the leverage (hand-building what agents do better) and the one who won't govern it (agents loose on customer systems). Pattern-form practices: the Agent Boundary, the Eval Suite, Agent-Speed Iteration. [SCENE-NEEDED: an engagement moment where agent leverage or an eval caught something a demo would have hidden.]
 
-**14. The Four Metrics.** Time to First Proof, Loop Time, Graduation Rate, Extraction Rate — what each detects, how each is gamed, and why gaming them is self-reporting. DORA as the model: metrics as the discipline's anchor. Early-calibration thresholds, labeled as such — and how agent-assisted velocity resets what "good" looks like on the first two.
+**14. Engineering at the Edge.** The build-craft chapter: production-grade defined as a falsifiable checklist (the operational meaning of the FDE test's first criterion); testing at the edge — evals for the probabilistic layer, thin deterministic tests for glue, test where the Ledger says risk lives; the Deploy Path (CI/CD from week one, part of First Proof); the Security Floor (secrets, least privilege, data boundaries, dependency hygiene; regulated-domain tailoring); architecture decisions as Ledger entries. Pattern-form practices: the Deploy Path, the Security Floor.
 
-**15. Field Pathology.** The seven anti-patterns, one story each: the Permanent Resident, the Ghost Consultant, the Demo Treadmill, the Diluted Badge, the Silent Overfit, the Burned Hero, the Greenfield Reflex. Detection signals as the chapter's spine — if you see the signal, you have the problem, whatever the org chart says. [SCENE-NEEDED: at least one first-hand pathology story.]
+**15. The Four Metrics.** Time to First Proof, Loop Time, Graduation Rate, Extraction Rate — what each detects, how each is gamed, and why gaming them is self-reporting. DORA as the model: metrics as the discipline's anchor. Early-calibration thresholds, labeled as such — and how agent-assisted velocity resets what "good" looks like on the first two.
+
+**16. Field Pathology.** The seven anti-patterns, one story each: the Permanent Resident, the Ghost Consultant, the Demo Treadmill, the Diluted Badge, the Silent Overfit, the Burned Hero, the Greenfield Reflex. Detection signals as the chapter's spine — if you see the signal, you have the problem, whatever the org chart says. [SCENE-NEEDED: at least one first-hand pathology story.]
 
 ## Part III — Running It (for leaders and customers)
 
-**16. Should You Do This At All?** The four fit gates (mission-criticality, deal size, workflow commonality, data gravity); the honest cases where the answer is a better product or a partner channel; the one-third rule as an ongoing referendum on product quality.
+**17. Should You Do This At All?** The four fit gates (mission-criticality, deal size, workflow commonality, data gravity); the honest cases where the answer is a better product or a partner channel; the one-third rule as an ongoing referendum on product quality.
 
-**17. Building the Function.** The hiring profile (startup-CTO generalism plus the AI-native layer: agentic system design, eval construction, context engineering; curious hustlers over credentials); interviews that test for it; compensation and why field engineers keep product-engineer equity; reporting lines and the dual-reporting debate; rotation as retention policy, not perk.
+**18. Building the Function.** The hiring profile (startup-CTO generalism plus the AI-native layer: agentic system design, eval construction, context engineering; curious hustlers over credentials); interviews that test for it; compensation and why field engineers keep product-engineer equity; reporting lines and the dual-reporting debate; rotation as retention policy, not perk.
 
-**18. The Economics.** Margin for moat, stated honestly: what the field function costs, where those costs belong on the books (the Margin Mirage anti-pattern), when the trade is worth it, and the Salesforce/ServiceNow precedent of margins that started low and climbed. How agent leverage changes engagement economics — smaller teams, shorter boxes, more engagements per engineer. Milestone-based engagement economics; what boards should ask.
+**19. The Economics.** Margin for moat, stated honestly: what the field function costs, where those costs belong on the books (the Margin Mirage anti-pattern), when the trade is worth it, and the Salesforce/ServiceNow precedent of margins that started low and climbed. How agent leverage changes engagement economics — smaller teams, shorter boxes, more engagements per engineer. Milestone-based engagement economics; what boards should ask.
 
-**19. The Customer's Chair.** The book's audience turn: how to be a good host to a field team, what a customer should demand (a Charter, a Sponsor seat at Showcases, an exit date, an agent boundary they understand), what good looks like at week two and week six, and the customer's own anti-patterns — the access stall, the requirements relapse, the shadow backlog.
+**20. The Customer's Chair.** The book's audience turn: how to be a good host to a field team, what a customer should demand (a Charter, a Sponsor seat at Showcases, an exit date, an agent boundary they understand), what good looks like at week two and week six, and the customer's own anti-patterns — the access stall, the requirements relapse, the shadow backlog.
 
-**20. Scaling, and the Function's Own Graduation.** Portfolios, playbooks, and the point of the whole exercise: the field function shrinks the need for itself as extractions accumulate. What "success" looks like at year three; Ramp/OpenAI-era scaling patterns; the function as permanent scaffolding is the failure mode.
+**21. Scaling, and the Function's Own Graduation.** Portfolios, playbooks, and the point of the whole exercise: the field function shrinks the need for itself as extractions accumulate. What "success" looks like at year three; Ramp/OpenAI-era scaling patterns; the function as permanent scaffolding is the failure mode.
 
-**21. A Method That Stays Small.** Governance and versioning: how Frontier changes, the removal-matches-addition commitment, the succession note, and an invitation — run it, measure it, report back.
+**22. A Method That Stays Small.** Governance and versioning: how Frontier changes, the removal-matches-addition commitment, the succession note, and an invitation — run it, measure it, report back.
 
 ## Appendices
 
 - **A. The Frontier Manifesto** (reprint)
 - **B. The Frontier Guide** (reprint, versioned separately)
 - **C. Templates** — the Charter, a Ledger entry, the Scorecard (one page each)
-- **D. Glossary**
-- **E. Sources and Further Reading** — the Palantir accounts, the analyses, the methodological ancestors
+- **D. The Practitioner's Toolkit** — tool categories with selection criteria and mid-2026 named examples; the starter engagement repo (templates/engagement-repo/)
+- **E. Glossary**
+- **F. Sources and Further Reading** — the Palantir accounts, the analyses, the methodological ancestors

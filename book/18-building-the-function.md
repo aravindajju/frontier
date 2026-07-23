@@ -1,4 +1,4 @@
-# 17. Building the Function
+# 18. Building the Function
 
 New forward deployed engineers at Palantir were handed a book to read. Not a systems text and not a sales manual — *Impro*, Keith Johnstone's book on improvisational theater, chosen for its chapters on status: how people signal it, read it, and trade it in a room. Nabeel Qureshi, who spent eight years in the role, describes the choice as entirely practical. The engineers were about to sit across from intelligence analysts, hospital administrators, and factory managers, and the difference between an engagement that lands and one that stalls is often whether the engineer can read who actually holds the room. The company had learned that you can teach a strong engineer to read a room, but you have to decide to teach it — it does not come with the computer science degree.
 

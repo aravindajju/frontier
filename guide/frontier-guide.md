@@ -22,6 +22,8 @@ Work is FDE only if all three of these hold. This is the **FDE test**:
 
 Fail the first and you are doing solutions engineering. Fail the second and you are doing staff augmentation. Fail the third and you are doing consulting. All three are honorable trades. None of them is this one.
 
+**Production-grade, defined.** The first criterion is auditable because "production-grade" is: software is production-grade when it runs on the customer's infrastructure against real data; deploys through a repeatable path rather than an engineer's laptop; is monitored well enough that the operating team learns of failure before the vendor's engineer does; meets the engagement's security floor; and can be handed off — the receiving team can run, debug, and change it without the person who built it. Miss any of these and the work is a prototype wearing production clothes.
+
 ## Why forward deployment works
 
 Frontier rests on three claims.
@@ -35,6 +37,8 @@ Frontier rests on three claims.
 The loop runs in both directions, and the forward direction came first. Palantir did not invent forward deployment to build bespoke systems; it invented the role to get its platform implemented quickly inside customers who couldn't implement it themselves. A Frontier engagement starts from the product's existing capability and builds only the last mile between platform and outcome. This is what makes the time-box honest — most of First Proof should already exist as product — and it is the flywheel that makes the economics compound: every extraction widens the platform, and every widening shortens the next engagement.
 
 **Machine leverage makes the economics work.** Frontier assumes an AI-native practice on both sides of the work: the engineer builds with AI code assistants and agents, and what they build is mostly AI and agentic systems. The leverage runs both directions. Agent-assisted engineering is what lets one or two engineers produce team-scale output inside the time-box — Frontier's cadences are set for that velocity, not for hand-built velocity. And probabilistic systems are precisely the kind that cannot be tuned anywhere but in place, against the customer's real data. A method for field engineering that ignored either half would be describing a job that no longer exists.
+
+![The Frontier loop: capability deploys forward, outcomes and extractions return; beneath it, the engagement timeline ends at a hard exit date](../diagrams/big-picture.svg)
 
 ## Values
 
@@ -59,6 +63,8 @@ Frontier defines four accountabilities. Small teams may put several on one perso
 **The Core Counterpart** is a named engineer or product manager on the core product team who receives the engagement's extractions and owes them a decision. Extraction fails without a named receiver.
 
 **The Customer Sponsor** owns the outcome on the customer's side, is senior enough to unblock access and data, and attends Showcases. No sponsor, no engagement.
+
+![The four accountabilities: the field pair between the core and the customer](../diagrams/team.svg)
 
 ## The Lifecycle
 

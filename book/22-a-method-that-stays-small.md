@@ -1,4 +1,4 @@
-# 21. A Method That Stays Small
+# 22. A Method That Stays Small
 
 In 2020, the Scrum Guide got shorter. Its authors cut it from nineteen pages to thirteen — removed roles' prescriptive detail, removed IT-specific language, removed a decade of accumulated instruction — and adoption went up, not down. Around the same time, the Scaled Agile Framework issued another major version; each of its versions had added roles, levels, and vocabulary to a diagram that long ago stopped fitting on a slide, and each addition gave its critics new material. The two trajectories are the methodology field's cleanest natural experiment, and this book is written on the side of the one that subtracts.
 

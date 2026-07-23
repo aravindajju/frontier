@@ -1,0 +1,21 @@
+name: engagement-ci
+
+# The deploy path starts in week one. This pipeline runs the deterministic
+# tests and the eval suite on every push; extend it toward the customer's
+# environment as soon as access exists — it is part of First Proof.
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      # Replace with this engagement's stack. The shape matters, not the tool:
+      # glue and data contracts get deterministic tests; the model gets evals.
+      - name: Deterministic tests
+        run: echo "wire in: pytest / vitest / go test"
+      - name: Eval suite
+        run: echo "wire in: promptfoo eval (or your harness) against evals/"

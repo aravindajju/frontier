@@ -1,6 +1,6 @@
-# 16. Should You Do This At All?
+# 17. Should You Do This At All?
 
-Part III changes seats. The first two parts of this book addressed the people doing the work; this one addresses the people deciding whether the work should exist — founders, engineering leaders, and, in chapter 19, the customers hosting it. It opens with the decision that precedes every other one, because the most expensive way to learn that forward deployment doesn't fit your business is to build the function first.
+Part III changes seats. The first two parts of this book addressed the people doing the work; this one addresses the people deciding whether the work should exist — founders, engineering leaders, and, in chapter 20, the customers hosting it. It opens with the decision that precedes every other one, because the most expensive way to learn that forward deployment doesn't fit your business is to build the function first.
 
 The pressure to skip this chapter is real. FDE postings grew several hundred percent year over year into 2026; OpenAI, Anthropic, and Google built the function; the a16z essay arguing for trading margin for moat made the model respectable to boards. Hiring field engineers has become what adopting agile was in 2010 — the thing a serious company is assumed to do. Fashion is a bad reason to restructure your go-to-market, and the record already contains the companies that learned it: Marc Andrusko's "The Palantirization of Everything" — the corrective essay from the same firm that popularized the trade — exists because the model was being copied by companies it could only hurt.
 
@@ -36,9 +36,9 @@ The Guide's rule: failing two or more gates, the answer is a better product or a
 
 A better product is the boring fix that the field-engineering fashion obscures. If deployments stall on setup, documentation, and configuration — the same way each time — that is an onboarding defect with a product solution, and hiring engineers to hand-carry customers past it is paying salary to avoid a roadmap conversation.
 
-The partner channel is the historically proven fix, and the SAP case from chapter 15 is its monument: generalize what the field learns, hand implementation to partners, and let a services ecosystem carry the last mile at its own margins. You give up the direct feedback loop — the real cost, not to be waved away — in exchange for scale no employed field force reaches.
+The partner channel is the historically proven fix, and the SAP case from chapter 16 is its monument: generalize what the field learns, hand implementation to partners, and let a services ecosystem carry the last mile at its own margins. You give up the direct feedback loop — the real cost, not to be waved away — in exchange for scale no employed field force reaches.
 
-And if the truth is that your customers' outcomes require permanent on-site engineering — if the exit dates would all be fictions — then what you have is a services business. That is a legitimate thing to be. It has its own economics, its own multiples, and its own excellence. The only mistake is running one while booking it as software, which is the Margin Mirage, and chapter 18 treats it fully.
+And if the truth is that your customers' outcomes require permanent on-site engineering — if the exit dates would all be fictions — then what you have is a services business. That is a legitimate thing to be. It has its own economics, its own multiples, and its own excellence. The only mistake is running one while booking it as software, which is the Margin Mirage, and chapter 19 treats it fully.
 
 ## The referendum never closes
 
@@ -46,4 +46,4 @@ Passing the gates once is not a license; it is an entry ticket to a vote that re
 
 Read at portfolio level, quarterly, the rule turns the field function into a standing audit of the product. Early on, most deployments need the field — that is why the function exists. As extraction compounds, the share should fall. A share that stays high for the same class of problem is the product refusing to absorb what the field keeps learning, and the correct response is roadmap pressure, not headcount. A share that stays high across changing classes of problem may just be the frontier moving — new capability, new integration surface — which is the healthy version, and the portfolio review exists to tell the two apart.
 
-Which points at the strangest feature of a well-run field function, treated fully in chapter 20: its trajectory is toward needing less of itself. The gates ask whether you should build it. The referendum asks, every quarter, whether the product has caught up yet. A leadership team uncomfortable with a function whose success shrinks its own necessity should settle that discomfort now — before chapter 17, which is about hiring people whose careers will depend on you meaning it.
+Which points at the strangest feature of a well-run field function, treated fully in chapter 21: its trajectory is toward needing less of itself. The gates ask whether you should build it. The referendum asks, every quarter, whether the product has caught up yet. A leadership team uncomfortable with a function whose success shrinks its own necessity should settle that discomfort now — before chapter 18, which is about hiring people whose careers will depend on you meaning it.

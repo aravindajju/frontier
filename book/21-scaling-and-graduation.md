@@ -1,4 +1,4 @@
-# 20. Scaling, and the Function's Own Graduation
+# 21. Scaling, and the Function's Own Graduation
 
 The most consequential things Palantir's forward deployed engineers built were the ones that ended their own jobs. Engagement pattern after engagement pattern — ingestion, visualization, interface work — stopped being fought by hand and became the tools that stacked into Foundry (chapter 2 names them), which by the 2020s carried the majority of the company's revenue with a fraction of the field labor per account. Read as an organizational story rather than a product story, the arc is striking: the field function's finest output was the shrinking of its own necessity.
 

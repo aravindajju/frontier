@@ -1,0 +1,8 @@
+.env
+*.local
+node_modules/
+__pycache__/
+.venv/
+dist/
+.DS_Store
+# Customer data never enters this repo — evals reference it where it lives.

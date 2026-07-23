@@ -10,6 +10,8 @@ Every engagement has a heartbeat, and you can hear it from outside the room. In 
 
 Frontier calls this rhythm the Loop: show, discuss, ship again. It occupies most of an engagement's calendar — everything between First Proof and Graduation — and it is where the engagement's value gets built. Landing earns you context and First Proof earns you trust, but the Loop is where the outcome actually moves.
 
+![The Loop: show, discuss, ship again — weekly; each turn updates the Scorecard and fills the Ledger](../diagrams/loop.svg)
+
 ## Why a loop, and not a plan
 
 The argument for iteration is old and won. What matters here is why field engineering demands a *faster* loop than product engineering usually runs.

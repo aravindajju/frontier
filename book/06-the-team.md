@@ -10,6 +10,8 @@ Adit tells the story shorter: the software worked in week three, the engagement 
 
 Ask an engineering leader to sketch a field team and you will usually get one box: the engineer, deployed. The record says that sketch is how engagements fail. The software gets built and nobody changes their Monday morning to use it; the extraction never reaches anyone with a roadmap; the customer's one indispensable executive was never in the room. Frontier's answer is four accountabilities — not four hires, four things that must each be someone's named job. Small teams put several on one person. What no team gets to do is leave one unowned, because an unowned accountability doesn't disappear; it just fails silently and sends the invoice later.
 
+![The four accountabilities: the field pair between the core and the customer](../diagrams/team.svg)
+
 ## The Frontier Engineer
 
 The engineer is the role the discipline is named for, and one phrase in its definition carries most of the weight: the same technical bar as core product engineers.
@@ -44,7 +46,7 @@ Week one tests the Sponsor as much as the data. A Sponsor who can produce a ware
 
 **Problem.** Hire below the core bar and the field function drifts, within a year, into a pre-sales support group: rotation stops (nowhere to rotate to), extraction credibility drops, and the product organization begins treating field requests as noise.
 
-**Forces.** The adjacent hires are available now and interview smoothly — client polish reads well in a panel. The same-bar candidate is scarcer and often being courted by the core team too. And the field's compensation must match the bar, which finance will question until chapter 18's argument has been made.
+**Forces.** The adjacent hires are available now and interview smoothly — client polish reads well in a panel. The same-bar candidate is scarcer and often being courted by the core team too. And the field's compensation must match the bar, which finance will question until chapter 19's argument has been made.
 
 **Solution.** One bar, administered by the same process that gates core engineering, plus the field-specific screens: an ambiguity test (a messy, underspecified problem with a customer in the loop), the AI-native layer (agentic design, eval construction, context engineering), and evidence of what one first-hand account called curious hustle — the reflex to get on the plane and find out. Reject candidates who pass the technical bar but treat the customer-facing half as beneath the work; that preference is the Field Strategist's accountability landing on someone who resents it.
 
@@ -62,7 +64,7 @@ Week one tests the Sponsor as much as the data. A Sponsor who can produce a ware
 
 **Solution.** No Charter is signed without a named Core Counterpart on it, beside the Sponsor's name. The weekly Field-Core Sync and the post-engagement Extraction Review are theirs to attend; dispositions are theirs to argue and record. One person may serve several engagements; "the platform team" may serve none, because teams don't owe decisions — people do.
 
-**Consequences.** Product management will feel taxed, and the tax is real — roughly two hours a week per engagement. The visible return arrives at the quarterly portfolio review, when recurring Ledger entries surface as a roadmap the product organization didn't have to guess at. A company unwilling to pay this tax has answered chapter 16's fit questions early: it wants the revenue of field engineering without the flywheel, which is a consultancy, and should be priced as one.
+**Consequences.** Product management will feel taxed, and the tax is real — roughly two hours a week per engagement. The visible return arrives at the quarterly portfolio review, when recurring Ledger entries surface as a roadmap the product organization didn't have to guess at. A company unwilling to pay this tax has answered chapter 17's fit questions early: it wants the revenue of field engineering without the flywheel, which is a consultancy, and should be priced as one.
 
 ## Compression without deletion
 

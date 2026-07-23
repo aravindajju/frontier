@@ -27,13 +27,17 @@ function convert(srcPath, destPath, { order } = {}) {
 rmSync(join(out, 'book'), { recursive: true, force: true });
 rmSync(join(out, 'guide'), { recursive: true, force: true });
 rmSync(join(out, 'manifesto.md'), { force: true });
+rmSync(join(out, 'diagrams'), { recursive: true, force: true });
+
+// Diagrams: same relative paths work on GitHub (repo root) and in the site.
+cpSync(join(root, 'diagrams'), join(out, 'diagrams'), { recursive: true });
 
 convert(join(root, 'manifesto', 'manifesto.md'), join(out, 'manifesto.md'));
 convert(join(root, 'guide', 'frontier-guide.md'), join(out, 'guide', 'index.md'), { order: 0 });
 convert(join(root, 'guide', 'CHANGELOG.md'), join(out, 'guide', 'changelog.md'), { order: 1 });
 
 const chapters = readdirSync(join(root, 'book'))
-  .filter((f) => /^\d{2}-.+\.md$/.test(f) || f === 'appendix-c-templates.md')
+  .filter((f) => /^\d{2}-.+\.md$/.test(f) || /^appendix-.+\.md$/.test(f))
   .sort();
 for (const [i, f] of chapters.entries()) {
   convert(join(root, 'book', f), join(out, 'book', f), { order: i });

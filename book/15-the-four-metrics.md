@@ -1,4 +1,4 @@
-# 14. The Four Metrics
+# 15. The Four Metrics
 
 DevOps never got a canonical text. The word was coined at a 2009 conference, and for a decade every vendor and job board redefined it at will. What finally anchored the discipline was not a manifesto but a measurement program: the DORA research, condensed in *Accelerate* (Forsgren, Humble, Kim, 2018) into four metrics — deployment frequency, lead time, change failure rate, time to restore. The four keys did what no doctrine had managed. They let an organization know whether it was actually improving, and they were designed as two pairs — speed and stability — so that neither could be optimized by quietly sacrificing the other.
 
@@ -40,7 +40,7 @@ Directional threshold, early calibration: four in five. The remaining fifth, exa
 
 Ledger items generalized into the product, per quarter.
 
-The fourth number is deliberately not the field team's alone — it measures the relationship between edge and core, and it is the Core Counterpart's name on it as much as the engineer's. It exists because the Ghost Consultant is invisible at engagement scale. Any single engagement can plead uniqueness; a portfolio that ships outcomes all year while the platform stays exactly the same width has a name in chapter 15, and this number is how the condition surfaces before the year is spent.
+The fourth number is deliberately not the field team's alone — it measures the relationship between edge and core, and it is the Core Counterpart's name on it as much as the engineer's. It exists because the Ghost Consultant is invisible at engagement scale. Any single engagement can plead uniqueness; a portfolio that ships outcomes all year while the platform stays exactly the same width has a name in chapter 16, and this number is how the condition surfaces before the year is spent.
 
 The gaming is inflation — counting a renamed config file or a copied utility as an extraction. The audit is built into the flywheel: an extraction claims to widen the platform, and a wider platform must eventually show up as falling Time to First Proof on the engagements that follow. The first number checks the fourth. Palantir remains the reference case: field work productized into Foundry took the company from looking like a consultancy in 2016 to software margins near eighty percent by 2023 (Qureshi's account, chapter 2). That transformation is what a real, sustained Extraction Rate compounds into.
 
@@ -50,6 +50,6 @@ Directional threshold, early calibration: above zero every quarter, without exce
 
 The pairs balance each other the way DORA's did. Speed without integrity: Time to First Proof and Loop Time look excellent, Graduation Rate and Extraction Rate rot — a fast treadmill. Integrity without speed: careful charters, dutiful extractions, and engagements that take a quarter to show anything real — a research group with travel budget. The method wants all four, and the tension between the pairs is load-bearing: it is what makes the panel hard to satisfy with anything except the actual behavior.
 
-The thresholds in this chapter are labeled early calibration because that is what they are — the author's field experience and the public record, not a dataset. DORA earned its benchmarks from years of survey data across thousands of organizations; Frontier's equivalent does not exist yet. The numbers themselves are the commitment; the thresholds will move as field reports accumulate, and chapter 21 says how to send yours.
+The thresholds in this chapter are labeled early calibration because that is what they are — the author's field experience and the public record, not a dataset. DORA earned its benchmarks from years of survey data across thousands of organizations; Frontier's equivalent does not exist yet. The numbers themselves are the commitment; the thresholds will move as field reports accumulate, and chapter 22 says how to send yours.
 
 What will not move is the design intent. Frontier's rules were written to be falsifiable, and the four metrics are the instrument that makes fake adoption detectable — including, and especially, to the team running it on itself.

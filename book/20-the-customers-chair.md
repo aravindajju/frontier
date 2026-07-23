@@ -1,4 +1,4 @@
-# 19. The Customer's Chair
+# 20. The Customer's Chair
 
 Turn the book around. You run a claims operation, or a lending desk, or a hospital group's data function. A vendor you are betting on has proposed embedding engineers — in your environment, against your data, with AI agents in their toolchain — to get their platform producing an outcome you have promised your own leadership. Every prior chapter was written over your vendor's shoulder. This one is written over yours, because the method has a strong claim to make: a customer who knows what Frontier looks like gets a better engagement than one who merely hopes the vendor is competent. Most failed field engagements fail with the customer's unwitting help.
 

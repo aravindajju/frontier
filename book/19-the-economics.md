@@ -1,4 +1,4 @@
-# 18. The Economics
+# 19. The Economics
 
 Every argument about field-engineering economics eventually reaches the same exhibit: Palantir, which looked like a consultancy in 2016 and reported software margins by 2023 on the strength of the product its field work had built — chapter 2 tells the story. The skeptics of 2016 read the income statement correctly and the strategy wrongly. The field expense was not the cost structure; it was the construction site.
 

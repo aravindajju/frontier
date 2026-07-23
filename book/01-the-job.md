@@ -38,6 +38,8 @@ The third neighbor is the one that stings: consulting. The consultant embeds, le
 
 Frontier compresses these three collisions into a test. Work is Forward Deployed Engineering only if all three of these hold: **production code in the customer's environment, against real data** — not offline prototypes, not sandboxes. **Ownership of a named business outcome** — not a deliverables list, not a satisfaction score. **An obligation to leave a trace in the product** — extraction as a duty, not a bonus. This book calls it the FDE test, and it does its best work not in definitional arguments but inside companies: it is how a team, or the engineer deciding whether to take the job, checks what a role actually is regardless of what the posting called it.
 
+![The FDE test: three yes-or-no questions; a no routes to solutions engineering, staff augmentation, or consulting](../diagrams/fde-test.svg)
+
 ## Why this job, now
 
 The role is two decades old — chapter 2 tells that history — but it was a niche practice until roughly 2023, and then it wasn't. Job postings for forward deployed engineers grew several hundred percent year over year; the AI labs built field teams; so did most of the companies selling AI systems into enterprises.
