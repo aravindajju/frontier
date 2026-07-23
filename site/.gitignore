@@ -22,3 +22,4 @@ pnpm-debug.log*
 src/content/docs/book/
 src/content/docs/guide/
 src/content/docs/manifesto.md
+src/content/docs/diagrams/
