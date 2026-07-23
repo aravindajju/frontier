@@ -64,5 +64,6 @@ Drafting order: Part II, then Part I, then Part III.
 - **B. The Frontier Guide** (reprint, versioned separately)
 - **C. Templates** — the Charter, a Ledger entry, the Scorecard (one page each)
 - **D. The Practitioner's Toolkit** — tool categories with selection criteria and mid-2026 named examples; the starter engagement repo (templates/engagement-repo/)
-- **E. Glossary**
-- **F. Sources and Further Reading** — the Palantir accounts, the analyses, the methodological ancestors
+- **E. Skills and Study** — eight skills with why-this-job reasons, curated books, and practice prescriptions
+- **F. Glossary**
+- **G. Sources and Further Reading** — the Palantir accounts, the analyses, the methodological ancestors
