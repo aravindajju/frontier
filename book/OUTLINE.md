@@ -10,7 +10,7 @@ Drafting order: Part II, then Part I, then Part III.
 
 ## Part I — The Frontier (why this work exists)
 
-**1. The Job.** A working definition by portrait: what a forward deployed engineer actually does in a week, and the bright-line test that separates this job from the three trades it gets mistaken for. [SCENE-NEEDED: a day mid-engagement — the messiest, most representative one.]
+**1. The Job.** A working definition by portrait: what a forward deployed engineer actually does in a week, and the FDE test that separates this job from the three trades it gets mistaken for. [SCENE-NEEDED: a day mid-engagement — the messiest, most representative one.]
 
 **2. Where This Came From.** Palantir invents the role out of necessity (classified customers, unshareable data) and for a purpose: to get its platform implemented quickly inside customers who couldn't do it themselves — the role was always platform-first, never bespoke-build. Delta and Echo; more field engineers than product engineers until 2016; Foundry built from the residue of a thousand deployments; the AI era makes the model everyone's problem. Sources are public and cited.
 
@@ -38,7 +38,7 @@ Drafting order: Part II, then Part I, then Part III.
 
 **13. Machine Leverage.** The AI-native chapter, and the reason Frontier's cadences are set where they are. Building with AI code assistants and agents at the customer: what agent-assisted velocity makes possible in a six-week box, and what it makes dangerous. The agent boundary as Charter material — data boundaries for model context, human review gates, audit trails in regulated environments. Evals as the Scorecard for probabilistic systems: why "it worked in the showcase" is an anecdote and an eval score is a state; building the eval suite from the customer's real cases during Landing and the Loop. The two failure modes: the engineer who won't use the leverage (hand-building what agents do better) and the one who won't govern it (agents loose on customer systems). Pattern-form practices: the Agent Boundary, the Eval Suite, Agent-Speed Iteration. [SCENE-NEEDED: an engagement moment where agent leverage or an eval caught something a demo would have hidden.]
 
-**14. The Four Numbers.** Time to First Proof, Loop Time, Graduation Rate, Extraction Rate — what each detects, how each is gamed, and why gaming them is self-reporting. DORA as the model: metrics as the discipline's anchor. Early-calibration thresholds, labeled as such — and how agent-assisted velocity resets what "good" looks like on the first two.
+**14. The Four Metrics.** Time to First Proof, Loop Time, Graduation Rate, Extraction Rate — what each detects, how each is gamed, and why gaming them is self-reporting. DORA as the model: metrics as the discipline's anchor. Early-calibration thresholds, labeled as such — and how agent-assisted velocity resets what "good" looks like on the first two.
 
 **15. Field Pathology.** The seven anti-patterns, one story each: the Permanent Resident, the Ghost Consultant, the Demo Treadmill, the Diluted Badge, the Silent Overfit, the Burned Hero, the Greenfield Reflex. Detection signals as the chapter's spine — if you see the signal, you have the problem, whatever the org chart says. [SCENE-NEEDED: at least one first-hand pathology story.]
 

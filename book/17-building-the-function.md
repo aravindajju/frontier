@@ -6,7 +6,7 @@ That is the theme of this chapter. A field function is not a group of product en
 
 ## The profile
 
-The bright-line test sets the floor: a Frontier Engineer writes production code in the customer's environment, so the technical bar is the same bar core product engineers pass. Palantir was explicit about this — Deltas interviewed against the same standard as Devs — and the reason is structural, not egalitarian. A field engineer who cannot pass the core bar cannot do the job's second half: their extractions arrive at the platform team as requests from a colleague or as tickets from a vendor, and only one of those gets read seriously.
+The FDE test sets the floor: a Frontier Engineer writes production code in the customer's environment, so the technical bar is the same bar core product engineers pass. Palantir was explicit about this — Deltas interviewed against the same standard as Devs — and the reason is structural, not egalitarian. A field engineer who cannot pass the core bar cannot do the job's second half: their extractions arrive at the platform team as requests from a colleague or as tickets from a vendor, and only one of those gets read seriously.
 
 On top of the floor sit three layers.
 
@@ -20,7 +20,7 @@ On top of the floor sit three layers.
 
 Each layer wants its own test, and only the first has a standard one.
 
-The technical bar is your existing engineering loop, unchanged. Resist the temptation to soften it for a "customer-facing" role; the bright-line test is the thing you are protecting.
+The technical bar is your existing engineering loop, unchanged. Resist the temptation to soften it for a "customer-facing" role; the FDE test is the thing you are protecting.
 
 Generalism shows up in a messy-data exercise: a real (anonymized) extract with the defects the field actually serves — duplicate keys, a column whose name lies, three date formats. Ask for something working against it in a bounded window, with an agent available. You learn two things at once: how they move through unfamiliar mess, and how they drive the agent — whether it is leverage in their hands or a slot machine.
 
@@ -28,7 +28,7 @@ The room-reading layer needs a scenario, not a quiz. Give the candidate the week
 
 ## Paying for it
 
-The market has already priced the role; the design question is composition, not level. Reported ranges at the AI labs run from the mid hundreds of thousands to seven figures at the top of band — field engineering is not the discount tier of engineering, and a company that prices it that way staffs it with people who couldn't get the core job, which the bright-line test then faithfully converts into a solutions-architecture team with the wrong title.
+The market has already priced the role; the design question is composition, not level. Reported ranges at the AI labs run from the mid hundreds of thousands to seven figures at the top of band — field engineering is not the discount tier of engineering, and a company that prices it that way staffs it with people who couldn't get the core job, which the FDE test then faithfully converts into a solutions-architecture team with the wrong title.
 
 Two composition rules matter more than the number.
 

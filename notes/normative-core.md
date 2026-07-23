@@ -12,7 +12,7 @@ Sources: Palantir's documented practice (Delta/Echo, the Foundry extraction stor
 
 Forward Deployed Engineering is the practice of embedding product engineers inside a customer's environment to ship working software against real data, own a named business outcome, and feed what they learn back into the product.
 
-**The bright-line test.** Work is FDE only if all three hold:
+**The FDE test.** Work is FDE only if all three hold:
 
 1. **Production code in the customer's environment, against real data.** Not offline prototypes, not anonymized sandboxes, not slideware.
 2. **Outcome ownership.** The engineer is accountable for a named business result, not a deliverables list or a satisfaction score.
@@ -106,7 +106,7 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 - **The Permanent Resident** — the engagement that never ends. Signal: no exit date, or serial extensions without re-chartering.
 - **The Ghost Consultant** — engagements that leave no product trace. Signal: empty Ledger, skipped Extraction Reviews, extraction rate at zero.
 - **The Demo Treadmill** — showcases running on slides and staged data. Signal: Time to First Proof never lands; "we'll get production access next month."
-- **The Diluted Badge** — the FDE title on solutions-architect work. Signal: fails the bright-line test's first or second criterion.
+- **The Diluted Badge** — the FDE title on solutions-architect work. Signal: fails the FDE test's first or second criterion.
 - **The Silent Overfit** — edge hacks nobody recorded. Signal: production incidents at the customer that the Ledger never predicted.
 - **The Burned Hero** — one engineer carrying serial engagements without rotation. Signal: rotation rule violations; resignation letters.
 - **The Greenfield Reflex** — rebuilding at the edge what the platform already does. Signal: engagement code duplicating product capability; platform team learns of workarounds from incident reports.
@@ -114,7 +114,7 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 
 ## 12. Tailoring (context-dependent vs invariant)
 
-**Invariant everywhere** (the core the bright-line test protects): the three criteria, the Charter with exit date, the Showcase loop on real data, the Extraction Review, a named Core Counterpart.
+**Invariant everywhere** (the core the FDE test protects): the three criteria, the Charter with exit date, the Showcase loop on real data, the Extraction Review, a named Core Counterpart.
 
 **Varies by context:**
 - *Engagement length*: 6-12 weeks default; regulated or mission-critical domains (defense, health infrastructure) may run residencies — with quarterly re-chartering replacing the single exit date.
@@ -126,7 +126,7 @@ Healthy field organizations trend: proof in days-to-two-weeks, loop in under a w
 
 ## 13. Vocabulary (coined terms, budget: ten)
 
-Frontier (the method), frontier engineer, engagement, Charter, Showcase, the Loop, Ledger, Graduation, Extraction, and the bright-line test. That is ten; the budget is spent.
+Frontier (the method), frontier engineer, engagement, Charter, Showcase, the Loop, Ledger, Graduation, Extraction, and the FDE test. That is ten; the budget is spent.
 
 ## 14. The diagram (to be drawn)
 

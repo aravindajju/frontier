@@ -66,7 +66,7 @@ Two rules are non-negotiable. Working software only — a showcase run on slides
 
 ## The loop as the method's clock
 
-Loop Time — the median days from showcase feedback to the shipped next version — is the second of Frontier's four numbers, and it is the one the field team controls most directly. Time to First Proof is partly hostage to access; Graduation Rate settles slowly; Extraction Rate belongs half to the core team. Loop Time is yours. A team whose Loop Time is under a week is steering; a team whose Loop Time stretches past two is being steered — by integration friction, by approval queues, by its own overbuilding — and the number says so before anyone admits it in a status report.
+Loop Time — the median days from showcase feedback to the shipped next version — is the second of Frontier's four metrics, and it is the one the field team controls most directly. Time to First Proof is partly hostage to access; Graduation Rate settles slowly; Extraction Rate belongs half to the core team. Loop Time is yours. A team whose Loop Time is under a week is steering; a team whose Loop Time stretches past two is being steered — by integration friction, by approval queues, by its own overbuilding — and the number says so before anyone admits it in a status report.
 
 The Loop also disciplines the other practices around it. It fills the Ledger on a weekly rhythm instead of an end-of-engagement archaeology dig. It gives the Field-Core Sync something real to carry back to the product each week. And it makes Graduation boring, in the best sense: by the final showcase, the customer has watched the system converge for weeks, and handoff is a formality rather than a reveal.
 

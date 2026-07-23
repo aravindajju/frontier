@@ -34,11 +34,11 @@ The treadmill is also the failure most often blamed on the customer, and sometim
 
 ## The Diluted Badge
 
-The FDE title on solutions-architect work. **Signal: the role fails the bright-line test.**
+The FDE title on solutions-architect work. **Signal: the role fails the FDE test.**
 
 By 2026, with FDE postings up several hundred percent year over year, The Pragmatic Engineer's reporting found listings under the title that broke down to roughly a quarter coding, half integration meetings, and the rest status calls — in the newsletter's judgment, indistinguishable from a solutions architect. The same reporting flagged a second-order signal: labs standing up FDE functions in separate legal entities, without the core company's equity — an org-chart way of saying *not core talent*.
 
-The badge dilutes for boring reasons — the title is hot, recruiting is hard, retitling is free. The cost lands on the discipline: when the word means everything it means nothing, and the people doing the actual work inherit the skepticism earned by the people who aren't. This book's response is the bright-line test, applied without sentiment: production code in the customer's environment, outcome ownership, product obligation. A role description that fails two of three is fine work under the wrong name. Chapter 3 called this semantic diffusion; this chapter's contribution is only the audit.
+The badge dilutes for boring reasons — the title is hot, recruiting is hard, retitling is free. The cost lands on the discipline: when the word means everything it means nothing, and the people doing the actual work inherit the skepticism earned by the people who aren't. This book's response is the FDE test, applied without sentiment: production code in the customer's environment, outcome ownership, product obligation. A role description that fails two of three is fine work under the wrong name. Chapter 3 called this semantic diffusion; this chapter's contribution is only the audit.
 
 ## The Silent Overfit
 

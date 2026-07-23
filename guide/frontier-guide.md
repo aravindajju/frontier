@@ -14,7 +14,7 @@ Forward Deployed Engineering (FDE) is the discipline. Frontier is one opinionate
 
 Forward Deployed Engineering is the practice of embedding product engineers inside a customer's environment to ship working software against real data, own a named business outcome, and feed what they learn back into the product.
 
-Work is FDE only if all three of these hold. This is the **bright-line test**:
+Work is FDE only if all three of these hold. This is the **FDE test**:
 
 1. **Production code in the customer's environment, against real data.** Not offline prototypes. Not anonymized sandboxes. Not slideware.
 2. **Outcome ownership.** The engineer is accountable for a named business result, not a deliverables list and not a satisfaction score.
@@ -102,7 +102,7 @@ Frontier's rules are falsifiable on purpose: anyone can check whether a team fol
 
 ## Metrics
 
-Frontier tracks four numbers. They are to a field organization what the DORA metrics are to a delivery organization.
+Frontier tracks four metrics. They are to a field organization what the DORA metrics are to a delivery organization.
 
 1. **Time to First Proof** — days from Landing to working software on real data in the customer's environment.
 2. **Loop Time** — median days from Showcase feedback to the shipped next version.
@@ -118,7 +118,7 @@ Each has a detection signal. If you see the signal, you have the problem, whatev
 - **The Permanent Resident** — the engagement that never ends. Signal: no exit date, or serial extensions without re-chartering.
 - **The Ghost Consultant** — engagements that leave no product trace. Signal: an empty Ledger; extraction rate at zero.
 - **The Demo Treadmill** — Showcases running on slides and staged data. Signal: First Proof never lands; production access is always next month.
-- **The Diluted Badge** — the FDE title on solutions-architect work. Signal: fails the bright-line test.
+- **The Diluted Badge** — the FDE title on solutions-architect work. Signal: fails the FDE test.
 - **The Silent Overfit** — edge hacks nobody recorded. Signal: production incidents the Ledger never predicted.
 - **The Burned Hero** — one engineer carrying serial engagements without rotation. Signal: rotation-rule violations, then resignation letters.
 - **The Greenfield Reflex** — rebuilding at the edge what the platform already does. Signal: engagement code that duplicates product capability; the platform team learns about workarounds from incident reports.
@@ -127,7 +127,7 @@ Each has a detection signal. If you see the signal, you have the problem, whatev
 
 Frontier is a method, not a liturgy. Some of it is invariant; the rest is expected to be tailored, and honest tailoring is stated tailoring.
 
-**Invariant:** the bright-line test, the Charter with an exit date, the Loop on real data, the Extraction Review, a named Core Counterpart. Remove any of these and what remains is not Frontier.
+**Invariant:** the FDE test, the Charter with an exit date, the Loop on real data, the Extraction Review, a named Core Counterpart. Remove any of these and what remains is not Frontier.
 
 **Tailor by context:**
 - *Engagement length.* Six to twelve weeks by default. Regulated or mission-critical domains may need residencies — run them as chained engagements with quarterly re-chartering, not as an open-ended stay.
@@ -144,10 +144,10 @@ Frontier is not a sales method, though it lives near the sale. It is not profess
 
 ## Glossary
 
-- **Bright-line test** — the three criteria that distinguish FDE from adjacent trades.
 - **Charter** — the one-page engagement constitution: outcome, exit date, graduation criteria, sponsor.
 - **Engagement** — one time-boxed deployment of a Frontier team against one chartered outcome.
 - **Extraction** — moving something learned or built at the edge into the core product.
+- **FDE test** — the three criteria that distinguish FDE from adjacent trades.
 - **Frontier Engineer** — the practitioner role; a product engineer deployed into the customer's environment.
 - **Graduation** — the planned end of an engagement, against the Charter's criteria.
 - **Ledger** — the running record of deliberate overfits and generalization candidates.
@@ -157,4 +157,4 @@ Frontier is not a sales method, though it lives near the sale. It is not profess
 
 ## Versioning and changes
 
-This Guide is versioned. Every change appears in the changelog with its reasoning; superseded versions stay available. Changes to the normative core — the bright-line test, roles, lifecycle, rules, metrics — are decided by the author after public comment. The direction of travel is a commitment: each revision removes at least as much prescription as it adds.
+This Guide is versioned. Every change appears in the changelog with its reasoning; superseded versions stay available. Changes to the normative core — the FDE test, roles, lifecycle, rules, metrics — are decided by the author after public comment. The direction of travel is a commitment: each revision removes at least as much prescription as it adds.

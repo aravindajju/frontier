@@ -24,7 +24,7 @@ The era's cautionary structures make the stakes concrete. When a company spins i
 
 ## Year three, measured
 
-If the model is working, the function's own four numbers should show a signature by the third year — visible in trend even where single quarters wobble.
+If the model is working, the function's own four metrics should show a signature by the third year — visible in trend even where single quarters wobble.
 
 **Time to First Proof falls** as playbooks compress Landing and the platform's coverage widens; what took a fortnight at year one takes days in the verticals you know.
 
