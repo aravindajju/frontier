@@ -15,7 +15,8 @@ Always first-person practitioner. The author has done this work. Write from the 
 
 Model: the Google SRE book and *The Phoenix Project*. Those books made operations compelling by narrating what went wrong before naming what to do. Follow the same shape:
 
-- Open a chapter with a scene, not a definition. A real engagement, a real failure, a real conversation (anonymized as needed). Extract the principle from the story; never bolt a story onto a principle.
+- Open a chapter with a scene, not a definition. Extract the principle from the story; never bolt a story onto a principle.
+- The book's scenes use a recurring fictional cast — Advik and Adit (engineers), Mara and Priya (Field Strategists), and three customers: Meridian National Bank, Cascade Health, Granite Mutual. They are composites built from real practice and the documented record, disclosed up front in "A Note on the Stories." Fiction changes none of the craft rules below, and it adds one: the world stays consistent. Same sponsors, same numbers, same week counts across chapters; a new scene must fit the established threads or change them everywhere.
 - Stories are specific: dates, durations, team sizes, what the dashboard showed, what the customer said. Vague stories ("a large enterprise struggled with adoption") persuade no one.
 - One story per point. A story that illustrates three points illustrates none.
 - Keep the analytical spine visible: after the story, state the principle plainly in one or two sentences a reader can quote without the story.
